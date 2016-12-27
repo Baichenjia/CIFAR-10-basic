@@ -12,7 +12,7 @@
 <font size=3>一般而言，深度学习中使用的SVM损失函数是基于 [Weston and Watkins 1999 (pdf)](https://www.elen.ucl.ac.be/Proceedings/esann/esannpdf/es1999-461.pdf) 。
 <font size=3>其损失函数如下：
 
-<font size=5>$$L_i = \sum_{j\neq y_i}max(f_j - f_{y_i} + \Delta)$$</font>
+<font size=5>L_i = \sum_{j\neq y_i}max(f_j - f_{y_i} + \Delta)</font>
 
 在实际使用中，$\Delta$ 的值一般取1，代表间隔。
 
