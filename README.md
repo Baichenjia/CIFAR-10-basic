@@ -1,5 +1,3 @@
->Deep learning在计算机视觉方面具有广泛的应用，包括图像分类、目标识别、语义分隔、生成图像描述等各个方面。本系列博客将分享自己在这些方面的学习和认识，如有问题，欢迎交流。
-
 <font size=3>在使用卷积神经网络进行分类任务时，往往使用以下几类损失函数：
 
  - **平方误差损失**
@@ -24,7 +22,7 @@
 <font size=5> $$L_i = \sum_{j\neq y_i}max(W_j^Tx_i+W_{y_i}^Tx_i + \Delta)$$
 </font>
 <font size=3>如果考虑整个训练集合上的平均损失，包括正则项，则公式如下：</font>
-<font size=5>$$L=\frac{1}{N}\sum_i\sum_{j\not=y_i}[max(0,f(x_i;W)_j-f(x_i;W)_{y_i}+\Delta)]+\lambda \sum_k \sum_l W^2_{k,l}$$</font>
+<font size=5>$L=\frac{1}{N}\sum_i\sum_{j\not=y_i}[max(0,f(x_i;W)_j-f(x_i;W)_{y_i}+\Delta)]+\lambda \sum_k \sum_l W^2_{k,l}$</font>
 
 
 ><font color=red>直观理解:</font>
